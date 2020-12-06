@@ -1,0 +1,77 @@
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: #985;
+    background-image: url(https://i.pinimg.com/originals/ee/68/7d/ee687d35a8893cb0bd6fa9cfbc328d8a.jpg);
+}
+  
+
+.container {
+    width:724px;
+    height:724px;
+    margin: 45px auto;
+}
+
+.corner {
+    float: left;
+    background-color:#222; 
+    width: 30px;
+    height: 30px;
+    margin: 0 6px 6px 0;
+    line-height: 30px;
+    text-align: center; 
+    color: #eee; 
+    font-family: serif;
+    box-shadow: 0 0 10px #aa5;
+}
+.letterbox {
+    float: left;
+    background-color: #222; 
+    width: 80px; 
+    height: 30px; 
+    margin: 0 6px 6px 0;
+    line-height: 30px;
+    text-align: center; 
+    color: #eee; 
+    font-family: serif; 
+    font-weight:900;
+    box-shadow: 0 0 10px #aa5;
+}
+
+.num { 
+    float:left;
+    background-color: #222; 
+    width: 30px; 
+    height: 80px; 
+    margin: 0 6px 6px 0;
+    line-height: 80px;
+    text-align: center; 
+    color: #eee; 
+    font-family: serif;
+    box-shadow: 0 0 10px #aa5;
+}
+
+.box {
+    float: left;
+    background-color: #744; 
+    width: 80px; 
+    height: 80px; 
+    margin: 0 6px 6px 0;
+    text-align: center;
+    box-shadow: 0 0 10px #aa5;
+}
+
+.row:nth-child(even) .box:nth-child(even) {background-color: #eeb;}
+.row:nth-child(odd) .box:nth-child(odd) {background-color: #eeb;}
+
+.fas {
+    font-size: 45px; 
+    color: #421; 
+    line-height: 80px;
+    text-shadow: 1px 1px 4px indianred ;
+    text-shadow: inset 3px 3px #fff;
+}
